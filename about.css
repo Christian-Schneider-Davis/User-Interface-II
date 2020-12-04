@@ -59,6 +59,7 @@ h1{
 .flexbox{
  display:flex;
  border: 2px solid black;
+ flex-flow:row nowrap;
  width:20%;
  font-size: 120%;
  font-decoration: none;
