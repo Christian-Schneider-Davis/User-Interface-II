@@ -60,7 +60,7 @@ h2{
   font-size: 55px;
   text-align: center;
   font-family: font-family: 'Roboto Mono', monospace; 
-  padding: 2%;
+  padding: 4%;
 }
 .flexbox{
  display:flex;
@@ -95,11 +95,13 @@ h2{
   margin-bottom: 2%;
   padding: 3%; */
   
-.container {
-  max-width: 100%;
-    height: auto;
-    margin-left: 0px;
-    margin-right: 0px;
+.container img {
+  display: flex;
+  width: 5%;
+  height: 5%;
+  justify-content: space-between;
+  margin: center;
+  padding: 2%;
 }
 
 
@@ -118,7 +120,7 @@ h2{
  padding:1%;
 }
 .container2{
-  
+
  border: 2px solid white;
  background:lightgrey;
  height:100px;
